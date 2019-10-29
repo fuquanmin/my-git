@@ -1,0 +1,75 @@
+<head>
+    <link rel="stylesheet" href="css/base1.css"/>
+    <meta charset="utf-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="css/programme.css">
+    <link rel="stylesheet" href="css/fzlc.css">
+</head>
+<body>
+
+
+
+
+<a href="#ff" style="display: block;height: 300px;color:blue">哈哈哈哈</a>
+
+<div style="background-color: red;height: 600px;width: 800px;margin-top:200px;" id="ff" name="ff">
+    哈哈哈哈哈哈哈
+</div>
+<script src="js/jquery-2.1.0.min.js"></script>
+
+<script type="text/javascript">
+
+  /*  $.fn.sum = function (fun) {
+        var v = 0;
+        if ($(this).length > 0) {
+            $(this).each(function (index, item) {
+                if (fun != null && fun != undefined && typeof (fun) == "function") {
+                    v = v + fun(item);
+                }
+            });
+        }
+        return v;
+    }*/
+
+
+/*
+            var arr=[1,2,undefined,null,3,5];
+            var sum=0;
+            for (let i=0;i<arr.length ;i++ )
+            {
+                if(!arr[i])
+                {
+                    console.log(11111);
+                    continue;
+                }
+
+                sum+=arr[i];
+            }
+           console.log(sum);*/
+
+/*
+  let arr = [{ name: '766' }, { name: '666' }, { name: '766' }, { name: '666' }, { name: '555' }, { name: '766' }]
+  let res = arr.sort((a, b) => (a.name - b.name))
+  console.log(res);
+*/
+  function mySort() {
+      var tags = new Array();
+      for(var i = 0;i < arguments.length;i++) {
+          tags.push(arguments[i]);
+
+      }
+      tags.sort(function(a,b) {
+          return a - b;
+      });
+      return tags;
+  }
+  var result = mySort(50,11,16,32,24,99,57,100);
+  console.info(result);
+
+
+
+</script>
+
+
+</body>
+</html>

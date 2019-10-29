@@ -1,0 +1,330 @@
+
+.base-sprite,.userCenter-main .userCenter-board .userCenter-info .userCenter-info-userimg .userimg-mask,.userCenter-main .userCenter-portal .userCenter-portal-icon,.userCenter-main .userCenter-portal .userCenter-portal-right {
+    background-image: url(i/../i/base-s24b4a0fbf7.png);
+    background-repeat: no-repeat
+}
+
+body,html {
+    min-width: 1200px;
+    font-family: 'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1',Arial,'Hiragino Sans GB','\5B8B\4F53';
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #5e5e5e
+}
+
+button,dd,div,dl,dt,form,img,input,li,ol,p,td,th,ul {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+li {
+    list-style-type: none
+}
+
+img {
+    vertical-align: top
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500
+}
+a {
+    cursor: pointer;
+    outline: 0
+}
+
+a:hover,a:link,a:visited {
+    text-decoration: none
+}
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+.clearfix {
+    display: inline-table;
+    display: block;
+    zoom: 1
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.grid-1200,.w {
+    width: 1200px;
+    margin: 0 auto
+}
+
+
+.header {
+    position: relative;
+    z-index: 1000
+}
+
+.main-nav {
+    height: 70px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff
+}
+
+.nav-wrap {
+    height: 70px;
+    border-bottom: 1px solid #e6e6e6
+}
+.main-nav .main-nav-logo a {
+    width: 200px;
+    height: 70px;
+    display: block
+}
+
+.main-nav .main-nav-logo a img {
+    margin-top: 18px
+}
+.main-nav .nav {
+    margin: 17px 0 0 70px;
+    font-size: 16px;
+    width: 570px
+}
+
+.main-nav .nav a {
+    color: #474e5d;
+    text-decoration: none
+}
+.show-message .content {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center
+}
+
+.f-copyright {
+    background: #323232;
+    height: 85px;
+    padding-top: 20px;
+    padding-bottom: 15px
+}
+
+.f-copyright .footerHolder {
+    position: relative
+}
+
+.footer-nav {
+    color: #b3b5ba;
+    font-family: Arial,'\5B8B\4F53';
+    position: absolute;
+    left: 0;
+    top: 15px
+}
+
+.footer-nav .footer-nav-cut {
+    margin: 0 10px;
+    color: #5a606e
+}
+
+.footer-nav a {
+    color: #b3b5ba!important
+}
+
+.footer-nav a:hover {
+    color: #fff!important
+}
+
+.footer-nav p {
+    margin-bottom: 14px
+}
+
+.footer-contact {
+    color: #b3b5ba;
+    width: 450px;
+    position: absolute;
+    top: 10px;
+    right: 0
+}
+
+.footer-contact .f-contact-time {
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #d0d0d0
+}
+
+.footer-contact .f-contact-time span {
+    font-size: 12px
+}
+
+.footer-contact .f-contact-way {
+    font-size: 20px;
+    line-height: 22px
+}
+
+.footer-contact .f-contact-way .f-contact-tel {
+    padding-left: 24px;
+    background: url(./i/tel-icon.png) left center no-repeat;
+    font-size: 14px;
+    color: #a6a6a6
+}
+
+.footer-contact .f-contact-way .f-contact-qq {
+    padding-left: 24px;
+    background: url(//storage.360buyimg.com/jr-biz/jr-biz-base/header/qq-group-icon.png) no-repeat;
+    font-size: 14px;
+    color: #a6a6a6
+}
+
+.footer-contact .f-contact-way .f-contact-type {
+    font-size: 14px;
+    color: #a6a6a6
+}
+
+.footer-contact .f-contact-way a {
+    font-size: 15px;
+    padding-left: 44px;
+    border-left: 1px solid #5a606e;
+    color: #fff;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    *color: #b3b5ba;
+    color: #b3b5ba \9
+}
+
+.footer-contact .f-contact-way a:hover {
+    opacity: 1;
+    filter: alpha(opacity=70);
+    color: #fff
+}
+
+.footer-contact .f-contact-way .f-contact-ol {
+    background: url(i/customer-service.png?20150605) 16px 1px no-repeat;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: 180px;
+    top: 37px
+}
+
+.footer-contact .f-contact-way .f-contact-ol.f-contact-mail {
+    background-position: 16px -23px;
+    left: 304px;
+    top: 37px
+}
+
+.footer-contact .f-contact-content {
+    overflow: hidden;
+    padding-top: 5px
+}
+
+.footer-contact .f-contact-content a {
+    color: #b3b5ba
+}
+
+.footer-contact .f-contact-content .f-cc-left,.footer-contact .f-contact-content .f-cc-mid,.footer-contact .f-contact-content .f-cc-right {
+    height: 44px;
+    float: left
+}
+
+.footer-contact .f-contact-content .f-cc-left {
+    margin-right: 20px
+}
+
+.footer-contact .f-contact-content .f-cc-mid,.footer-contact .f-contact-content .f-cc-right {
+    padding: 0 20px;
+    border-left: 1px solid #5a606e
+}
+
+.footer-contact .f-contact-content .f-cc-item {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: #8d8d8d
+}
+
+.footer-contact .f-contact-content .f-cc-link {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    background: url(i/service.png) no-repeat;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    color: #F3F3F3
+}
+
+.footer-contact .f-contact-content .f-cc-link.item-JIMI {
+    background-position: 0 -2px
+}
+
+.footer-contact .f-contact-content .f-cc-link.item-kefu {
+    background-position: 0 -39px
+}
+
+.footer-contact .f-contact-content .f-cc-link.item-mail {
+    background-position: 0 -73px
+}
+
+.footer-contact .f-contact-content .f-cc-link:hover {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.footer-contact .f-contact-content .f-cc-cut {
+    float: left;
+    display: block;
+    margin: 0 12px;
+    color: #5a606e;
+    font-size: 14px
+}
+
+.footer-contact .f-contact-content.f-contact-content-v2 {
+    padding-top: 8px
+}
+
+.footer-contact .f-contact-content.f-contact-content-v2 .f-cc-link {
+    float: left
+}
+
+
+
+
+
+.main-nav-supply-wrap {
+    margin-top: 12px;
+}
+.fr {
+    float: right;
+}
+.main-nav-supply-wrap a {
+    display: block;
+    width: 130px;
+    height: 34px;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 17px;
+    padding-left: 19px;
+    transition: .3s all ease;
+}
+
+.main-nav-supply-wrap a i {
+    float: left;
+    height: 34px;
+    width: 13px;
+    background: url(../img/ren.png) center center no-repeat;
+    margin-right: 7px;
+}
+.main-nav-supply-wrap a span {
+    float: left;
+    height: 34px;
+    color: #fff;
+    font: 400 14px/34px 'Microsoft Yahei';
+}
